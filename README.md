@@ -1,11 +1,10 @@
-# Software Quality
-
+## Software Quality
 - explicitly stated functional and performance
 requirements,
 - explicitly documented development standards,
 - implicit characteristics that are expected of all professionally developed software.
 
-# Problems with Software Quality
+## Problems with Software Quality
 
 - Software specifications are usually incomplete and often inconsistent
 - There is tension between:
@@ -17,7 +16,7 @@ requirements,
 
 __Quality management is not just about reducing defects!__
 
-# Quality Management Activities
+## Quality Management Activities
 - Quality assurance
  - establishing organizational quality standards and procedures
 - Quality planning
@@ -27,7 +26,7 @@ procedures for a particular project
  - ensuring quality standards and procedures are followed by development team
 
 
-# Quality Attributes
+## Quality Attributes
 __Quality attributes apply to the product, the project and the process.__
 - product: delivered to the customer
 - process: produces the software product
@@ -109,7 +108,7 @@ __Visibility (Transparency)__
 	- important for management
 	- also deal with staff turn-over
 
-# Quality Standards
+## Quality Standards
 
 > Product standards define characteristics that all components should exhibit.
 > Process standards define how the software process should be enacted.
@@ -130,15 +129,78 @@ __Potential Problems with Standards__
 - May require tedious manual work if unsupported by software tools
 	- Limit overhead to effectively apply standards
 
-# Quality Plan
+## Quality Plan
 - Identifies the most significant quality attributes appropriate for the product
 - Defines the assessment process in detail for each quality attribute
 - Indicates which organization standards should be applied and defines new standards as necessary
 
+## Document Standards
+- Document identification standards
+	- how documents are labeled
+- Document structure standards
+	- organization of project documents
+- Document presentation standards
+	- fonts, styles, logos, etc.
+- Document update standards
+	- change control and version definition
 
+## Software Quality Verification and Validation
+__Verification__
+ - Are we building the product right?
+ - Performed at the end of each phase* to
+ensure that requirements established during previous phases have been met
 
+__Validation__
+ - Are we building the right product?
+ - Performed at the end of development
+cycle * to ensure that the product does what it is supposed to do
 
+## Quality Controls
+Ensures that the defined quality standards are met.
 
+## Typical Control Activities of an SQA Process
+![stqm-1](stqm-1.png)
 
+## Types of Software Quality Controls
+1. Static Controls
+	— Inspections for defect removal (product)
+	— Progress Assessment Reviews (product and process)
+	— Quality reviews (product and standards)
+	— Manual Tests
+2. Dynamic and Automated Controls
+	— Automated tests
+	— Measure software attributes and compare to standards (e.g., defect rate, cohesion, tests, coverage, style, etc.)
 
+## Product Measurement Process
+1. Choose measurement to be made
+2. Select components to be assessed
+3. Measure component characteristics
+4. Identify anomalous measurements
+5. Analyze anomalous components
 
+## Quality process
+The steps to design your quality process:
+1. Chooseyoursoftwareprocess
+2. Determine the quality attributes of your product, project and process
+3. Determine the quality controls (when and how) for your project
+4. Document the quality process in the quality plan
+
+## Quality Control Tools
+- Testing
+	- automated and manual
+- Continuous integration and deployment
+- SW Design and Code analysis
+- Process analysis
+- Requirements validation
+- Review
+- Retrospectives
+- User Demos
+- Measurement tools
+
+## Quality Plan
+Components
+- Product introduction
+- Product plans
+- Process descriptions
+- Quality goals
+- Risks and risk management
