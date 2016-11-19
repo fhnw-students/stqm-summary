@@ -46,7 +46,9 @@ __Correctness__
 - A system is correct if it behaves according to its specification  An absolute property (i.e., a system cannot be “almost correct”)  ... in theory and practice undecidable
 
 __Reliability__
-> Reliability is the ability of a system to remain operational over time. Reliability is measured as the probability that a system will not fail to perform its intended functions over a specified time interval.
+> Reliability is the ability of a system to remain operational over time.
+> Reliability is measured as the probability that a system will not fail to perform its intended functions over a specified time interval.
+
 - The user may rely on the system behaving properly
 - Reliability is the probability that the system will operate as expected over a
 specified interval
@@ -277,7 +279,27 @@ Code review is systematic examination (often known as peer review) of computer s
 ![](int-testing.png)
 
 ## System Testing
+- including hardware
+- in black-box style
+- done by IT operations
+- automated and manual testing
 ![](sytem-testing.png)
+
+__Types__
+- GUI testing
+- Usability testing
+- Performance testing
+- Load testing
+- Stress testing
+- Compatibility testing
+- Security testing
+- Sanity testing
+	- Sanity testing can be narrow and deep. Sanity test is a narrow regression test that focuses on one or a few areas of functionality.
+- Smoke testing
+- Exploratory testing
+- Ad hoc testing
+- Recovery testing
+- Accessibility testing
 
 ## Acceptance Testing
 
