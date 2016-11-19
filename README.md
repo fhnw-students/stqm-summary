@@ -43,7 +43,9 @@ __Quality attributes can be external or internal.__
 	- e.g. Efficiency
 
 __Correctness__
-- A system is correct if it behaves according to its specification  An absolute property (i.e., a system cannot be “almost correct”)  ... in theory and practice undecidable
+- A system is correct if it behaves according to its specification
+- An absolute property (i.e., a system cannot be “almost correct”)
+	- ... in theory and practice undecidable
 
 __Reliability__
 > Reliability is the ability of a system to remain operational over time.
@@ -331,10 +333,35 @@ __Typical Integration Errors__
 - Top-Down
 	- Large amount of stubs
 	- Difficult test data
-- To down
+- Bottom up
 	- No stubs
 	- Many drivers to trigger the tests
 	- more specific tests
 - Sandwich (inside-out; outside-in)
 	- Less stubs and drivers than in top-down or bottom-up
 	- Can use several test teams
+
+# Continuous Delivery
+- To be able to generate ...
+	- production-ready releases (deliverables),
+	- from each commit/push to the repository,
+	- including system testing and acceptance testing,
+	- in an automated manner.
+- It is enabled through a deployment pipeline
+- A deployment pipeline has three purposes:
+	- Visibility:
+all team members have access to all aspects of delivery
+	- Feedback:
+problems will be reported to the team as soon as they occur
+	- Continually deploy:
+any version can be deployed and released
+
+## Continuous Delivery Process
+![](cdp.png)
+
+## Build Pipeline
+![](build.png)
+
+
+
+
