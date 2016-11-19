@@ -124,8 +124,16 @@ __Visibility (Transparency)__
 | Project plan format 			| Change control process |
 | Change request form 			| Test recording process |
 
+__Potential Problems with Standards__
+- Not always seen as relevant and up-to-date by software engineers
+- May involve too much bureaucratic form filling
+- May require tedious manual work if unsupported by software tools
+	- Limit overhead to effectively apply standards
 
-
+# Quality Plan
+- Identifies the most significant quality attributes appropriate for the product
+- Defines the assessment process in detail for each quality attribute
+- Indicates which organization standards should be applied and defines new standards as necessary
 
 
 
