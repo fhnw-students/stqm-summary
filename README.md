@@ -327,6 +327,14 @@ __Typical Integration Errors__
 | Error through concurrent access to global variables | Indirect |
 | Error through concurrent access to external services | Indirect |
 
-## Acceptance Testing
-
-
+## Structural Integration Strategies (contd)
+- Top-Down
+	- Large amount of stubs
+	- Difficult test data
+- To down
+	- No stubs
+	- Many drivers to trigger the tests
+	- more specific tests
+- Sandwich (inside-out; outside-in)
+	- Less stubs and drivers than in top-down or bottom-up
+	- Can use several test teams
