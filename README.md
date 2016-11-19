@@ -301,6 +301,32 @@ __Types__
 - Recovery testing
 - Accessibility testing
 
+__Integration Test Levels__
+- Member integration test
+	- tests the interaction of member methods and member variables of a class
+- Class-, module integration test
+	- tests the interaction of several class or modules
+- Component and subsystem integration
+	- test tests the interaction of components or subsystems
+- System integration test
+	- tests the interaction of the complete system with its environment and with other systems
+
+__Typical Integration Errors__
+
+| Error | Dependency Type |
+| --- | --- |
+| Service not offered by component | Interaction |
+| Service in wrong component | Interaction |
+| Wrong interpretation of input/output parameters | Interaction |
+| Wrong order of parameters | Interaction |
+| Race conditions | Interaction |
+| Deadlocks | Interaction |
+| Behavior change through sub class | Inheritance |
+| Different state transitions through sub class | Inheritance |
+| Error through concurrent access to common hardware | Indirect |
+| Error through concurrent access to global variables | Indirect |
+| Error through concurrent access to external services | Indirect |
+
 ## Acceptance Testing
 
 
