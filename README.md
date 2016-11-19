@@ -1,4 +1,4 @@
-## Software Quality
+# Software Quality
 - explicitly stated functional and performance
 requirements,
 - explicitly documented development standards,
@@ -205,6 +205,45 @@ Components
 - Quality goals
 - Risks and risk management
 
+# Code Review
+Code review is systematic examination (often known as peer review) of computer source code. It is intended to find and fix mistakes overlooked in the initial development phase, improving both the overall quality of software and the developers’ skills.
+
+## The main goals of code review are:
+- To spot and fix defects early in the process.
+- Better-shared understanding of the code base as team members learn from each other
+- Helps to maintain a level of consistency in design and implementation.
+- Helps to identify common defects across the team thus reducing rework.
+- Builds confidence of stakeholders about technical quality of the execution.
+- Uniformity in understanding will help interchangeability of team members in case of non-availability of any one of them.
+- A different perspective. “Another set of eyes” adds objectivity. Similar to the reason for separating your coding and testing teams, peer reviews provide the distance needed to recognize problems.
+- Pride/reward. Recognition of coding prowess is a significant reward for many programmers.
+- Team cohesiveness. Working together helps draw team members closer. It also provides a brief respite from the isolation that coding often brings.
+
+## The main areas a reviewer is focusing on are as follows:
+- General Unit Testing
+- Comment and Coding Conventions
+- Error Handling
+- Resource Leaks
+- Thread Safety
+- Control Structures
+- Performance
+- Functionality
+- Security
+
+
+## Assign Severity to Review Finding
+> The severity to find issues with code should go as below. Reviewer must focus on issues with High severity first and then to Medium severity and then Low severity issues.
+
+- Naming Conventions and Coding style = Low
+- Control Structures and Logical issues = Medium or High
+- Redundant Code = High
+- Performance Issues =High
+- Security Issues = High
+- Scalability Issues= High
+- Functional Issues =High
+- Error Handling = High
+- Reusability = Medium
+
 ## Five types of review
 
 ### Formal inspections
@@ -222,3 +261,24 @@ Components
 
 ### Pair-Programming
 - TODO
+
+# Integration Testing
+## Unit Testing
+- isolated
+- White-box style
+- functionality of a specific section of code
+- code coverage
+![](unit-testing.png)
+
+## Integration Testing
+- components interfaces
+- takes as input units that have been unit tested
+- Applies tests defined in an integration test plan
+![](int-testing.png)
+
+## System Testing
+![](sytem-testing.png)
+
+## Acceptance Testing
+
+
