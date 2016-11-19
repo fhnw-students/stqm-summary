@@ -204,3 +204,21 @@ Components
 - Process descriptions
 - Quality goals
 - Risks and risk management
+
+## Five types of review
+
+### Formal inspections
+![](formal-inspections.jpg)
+
+### Over-the-shoulder reviews
+![](over-the-shoulders.jpg)
+
+### E-mail pass-around reviews
+![](email-pre.jpg)
+![](email-post.jpg)
+
+### Tool-Assisted reviews
+- TODO
+
+### Pair-Programming
+- TODO
