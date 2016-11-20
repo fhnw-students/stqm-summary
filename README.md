@@ -133,6 +133,41 @@ __Potential Problems with Standards__
 - May require tedious manual work if unsupported by software tools
 	- Limit overhead to effectively apply standards
 
+### Popular standards
+__ISO 9126-1__
+ISO 9162-1 is an audit standard measuring 6 quality attributes:
+
+* Functionality
+  * Does the product what it is supposed to?
+  * Presence and absence of functionality (always a boolean answer)
+* Reliability
+  * Capability of software to maintain its service under defined conditions and circumstances for defined periods of time
+	  * Eg. Fault tolerance: network goes down for 1 minute
+* Usability
+  * Ease of use for given functionality
+	  * Eg. Learnability, information architecture, user guidance 
+* Efficiency
+  * The amount of resources used by the software to provide its functionality
+	  * Eg. Performance, usage of ram, disk, network, cpu
+* Maintainability
+  * Ability to find and fix a defect
+	  * how well is the code written, the software architecture?
+	  * how testable is the code overall? (to reproduce and fix the defect)
+* Portability
+  * How well can software adopt changes
+	  * In environment
+	  * In requirements
+
+__CMMI__
+The Capability Maturity Model Integration is a process model. It can be looked at in two flavours: continuous and staged. Continuous lets the organization focus on immediate business related processes whereas the staged method provides a sequence of advised improvements.
+There are 5 degrees of maturity:
+
+1. At least one process (area) is not in maturity level 2
+2. Several processes are managed: Configuration Mgmt, Process and Product Quality Assurance, Requirements Mgmt, Service Delivery, Work Planning, ...
+3.  Several processes are defined: Capacity and Availability Mgmt, Incident Resolution and Prevention, Organizational Process Definition and Focus, Risk Mgmt, Service System Development and Transition
+4. Quantitatively Managed Processes: Organizational Process Performance & Quanitative Work Management
+5. Optimizing Processes: Causal Analysis and Resolution, Organizational Performance Mgmt
+
 ## Quality Plan
 - Identifies the most significant quality attributes appropriate for the product
 - Defines the assessment process in detail for each quality attribute
@@ -329,7 +364,7 @@ __Typical Integration Errors__
 | Error through concurrent access to global variables | Indirect |
 | Error through concurrent access to external services | Indirect |
 
-## Structural Integration Strategies (contd)
+## Structural Integration Strategies (contd)
 - Top-Down
 	- Large amount of stubs
 	- Difficult test data
